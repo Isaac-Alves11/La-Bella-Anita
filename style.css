@@ -1,5 +1,5 @@
 body {
-background-color: pink;
+background-color: rgb(226, 133, 149);
 color: pink;
 }
 
@@ -45,9 +45,16 @@ color: white;
 border-color: darkred;
 }
 
-.carde-posicao-imagem {
+.card-posicao-imagem {
 object-fit: cover;
 height: 200px;    
+}
+
+.card-img-top {
+object-fit: cover;
+object-position: center;
+height: 200px;
+border: 2px solid darkred;
 }
 
 
