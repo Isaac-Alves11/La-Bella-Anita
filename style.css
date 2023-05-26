@@ -1,9 +1,28 @@
+body {
+background-color: pink;
+color: pink;
+}
+
 .card-largura {
-    width: 18rem;
+width: 18rem;
 }
 
 .imagem-carrossel1 {
-    object-fit: cover;
-    object-position: 0 70%;
-    height: 500px;
+object-fit: cover;
+object-position: 0 70%;
+height: 500px;
+}
+
+.imagem-carrossel2 {
+object-fit: cover;
+object-position: 0 70%;
+height: 500px;
+        
+}
+
+.imagem-carrossel3 {
+object-fit: cover;
+object-position: 0 70%;
+height: 500px;
+            
 }
