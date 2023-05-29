@@ -1,13 +1,3 @@
-body {
-background-color: rgb(226, 133, 149);
-color: pink;
-}
-
-.cor-barra-navegacao {
-background-color: rgb(226, 133, 149);
-color: pink;
-}
-
 .card-largura {
 width: 18rem;
 }
@@ -33,21 +23,20 @@ height: 500px;
 }
 
 .fonte-titulo {
-
 font-family: 'Pacifico', cursive;
 }
 
 .cor-especial {
-color: darkred;
+color: palevioletred;
 }
 
 .botao-cor-especial {
-background-color: darkred;
+background-color: palevioletred;
 color: white;
 }
 
 .borda-cor-especial {
-border-color: darkred;
+border-color: palevioletred;
 }
 
 .card-posicao-imagem {
@@ -59,7 +48,15 @@ height: 200px;
 object-fit: cover;
 object-position: center;
 height: 200px;
-border: 2px solid darkred;
+border: 2px solid palevioletred;
+}
+
+.imagem-carrosel1,
+.imagem-carrossel2,
+.imagem-carrosel3 {
+  object-fit: cover;
+  object-position: center;
+  height: 500px;
 }
 
 
