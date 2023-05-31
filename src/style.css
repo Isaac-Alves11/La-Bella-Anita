@@ -27,7 +27,7 @@ font-family: 'Pacifico', cursive;
 }
 
 .cor-especial {
-color: palevioletred;
+color: palevioletred!important;
 }
 
 .botao-cor-especial {

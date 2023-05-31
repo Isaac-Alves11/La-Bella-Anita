@@ -12,8 +12,8 @@
 
 <body>
  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">La Bella Anita</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top fonte-titulo">
+        <a class="navbar-brand cor-especial" href="#">La Bella Anita</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="toggle navigation">
             <span class="navbar-toggler-icon">
             </span>
@@ -145,15 +145,15 @@
 
 <!-- Modal -->
             <div class="modal fade" id="Modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
+                  <dialog class="modal-dialog" role="document">
+                  <div class="modal-content">
+                <header class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button>
-                    </div>
-                    <div class="modal-body">
+                      </button>
+                </header>
+                    <main class="modal-body">
                             <form>
                                 <div class="form-group">
                                   <label for="formGroupExampleInput">Nome completo</label>
@@ -168,12 +168,12 @@
                                 <textarea class="form-control" placeholder="Insira aqui seu comentário" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </form>
-                    </div>
-                    <div class="modal-footer">
+                    </main>
+                    <footer class="modal-footer">
                     <button type="button" class="btn botao-cor-especial" data-dismiss="modal">Fechar</button>
                     <button type="button" class="btn botao-cor-especial">Enviar</button>
-                    </div>
-                </div>
+                    </footer>
+                </dialog>
                 </div>
             </div>
 
